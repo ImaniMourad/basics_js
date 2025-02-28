@@ -73,6 +73,10 @@ person.name = "Omar"; // ✅ Possible
 
 ---
 
+## How WebPages work 🤔?
+![image](https://github.com/user-attachments/assets/3f91d19a-11b0-423b-ad71-e21c0728a4d1)
+
+
 📌 **Auteur :** Imani Mourad  
 🚀 *N'hésitez pas à contribuer ou à poser des questions !*
 
