@@ -1,8 +1,13 @@
-# 📌 Déclaration des Variables en JavaScript
+# 📌 JavaScript basics
+
+## 🔹 Qu'est-ce que JavaScript ?
+JavaScript (JS) est un langage de programmation interprété, principalement utilisé pour rendre les pages web interactives. Il est un des trois piliers du développement web avec HTML et CSS. JS permet d'ajouter des animations, de manipuler le DOM, de communiquer avec des serveurs et de créer des applications complètes côté client et serveur (avec Node.js).
+
+## 📌 Déclaration des Variables en JavaScript
 
 En JavaScript, on utilise trois mots-clés principaux pour déclarer des variables : `var`, `let` et `const`.
 
-## 1️⃣ `var` (Obsolète, à éviter 🚫)
+## 1️⃣ `var` (à éviter 🚫)
 - Déclaration **ancienne** (avant ES6).
 - Portée **fonctionnelle** (accessible dans toute la fonction où elle est déclarée).
 - **Hoisting** : Les variables `var` sont remontées en haut du scope, mais sans leur valeur initiale.
@@ -20,14 +25,14 @@ var x = 10;
 ---
 
 ## 2️⃣ `let` (Recommandé ✅)
-- Introduit avec **ES6** (2015).
+- Introduit avec **ES6**.
 - Portée **bloc** (`{}`), ce qui réduit les erreurs.
 - Ne peut pas être redéclarée dans le même scope.
 
 ### Exemple :
 ```js
 let y = 20;
-y = 30; // ✅ Possible (modifiable)
+y = 30; // ✅ modifiable
 console.log(y); // 30
 
 {
@@ -71,4 +76,3 @@ person.name = "Omar"; // ✅ Possible
 📌 **Auteur :** Imani Mourad  
 🚀 *N'hésitez pas à contribuer ou à poser des questions !*
 
-# basics_js
